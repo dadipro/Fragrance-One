@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+:root{
+    --primaryfont:'Open Sans'
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.navbar-fr{
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: var(--primaryfont);
+    font-weight:500 ;
+    font-size: 25px;
+}
+
+.navbar-content{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: var(--primaryfont);
+    margin-left: -100px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-content ul {
+   display: flex;
+}
+
+.navbar-content ul li {
+   list-style: none;
+   padding: 10px;
+   
+}
+
+.navbar-content ul li a{
+   text-decoration: none;
+   color:black;
+
+}
+
+.nav-icons{
+    width:272px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-icons a{
+    color: black;
+}
+
+.jeremy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.frag{
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.about-fragrances{
+    margin-top: 100px;
+    width: 400px;
+    
+}
+
+.about-fragrances2{
+    margin-top: 100px;
+    width: 400px;
+    
+}
+
+.about-fragrances3{
+    margin-top: 100px;
+    width: 400px;
+  
+}
+
+.bootles-fragrances{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.annivesary{
+    width: 100%;
+    height: 50%;
+    border: 1px solid;
+    
+}
+
+.edition{
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-size:25px ;
+    font-weight: 500;
+    margin-block-start: 100px;
+}
+
+.tat{
+    text-align: center;
+    font-family: var(--primaryfont);
+    /*line-height: 2;*/
+    margin-bottom: 100px;
+}
+
+.info{
+    width: 100%;
+    width: 100%;
+}
+
+.logn{
+    text-align: center;
+    font-family: var(--primaryfont);
+}
+
+.alberto-morillas{
+    display: flex;
+    align-items: center;  
+    margin-left: 100px;  
+    justify-content: space-around;
+    margin: 130px;
+}
+
+.master-perfumer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+   
+}
+
+.master-perfumer span{
+    font-weight: var(--primaryfont);
+}
+
+.master-perfumer h2{
+    font-family:serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.master-perfumer p{
+    font-family: var(--primaryfont);
+    font-weight: 500;
+}
+
+.but{
+    width: 120px;
+    height: 40px;
+    margin-left:50px;
+    border: 1px solid;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size:16px ;
+    font-weight: 500;
+}
+
+.text2{
+   text-align: center;
+
+}
+
+.decription p span{
+    text-align: center;
+  
+}
+
+.decription {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.txt2{
+    font-family: sans-serif;
+    font-weight:300;
+    font-size:20px ;
+    
+}
+
+.decription span{
+    position:absolute;
+    margin-left: -280px;
+    margin-top: 20px;
+    
+}
+
+
+.txtt{
+    font-family: var(--primaryfont);
+    font-size: 18px;
+  
+}
+
+
+.decription span{
+    font-family: var(--primaryfont);
+    font-size:13px ;
+    
+}
+
+.pefumes{
+   width: 100%;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+.perfumes h3{
+    margin-left: 40px;
+    font-family: serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.perfumes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+    gap: 20px;
+}
+
+.perfumes span{
+    font-family: sans-serif;
+    font-size:20px ;
+    font-weight:400 ;
+    
+}
+
+
+.office{
+    width: 400px;
+}
+
+
+.date{
+    width: 400px;
+}
+
+.black-tie{
+    width: 400px;
+}
+
+.night-for{
+    width: 400px;
+}
+
+.day-for{
+    width: 400px;
+}
+
+.unisex{
+    width: 400px;
+}
+
+.butoni{
+    border: 1px solid;
+    width: 80px;
+    height: 40px;
+    margin-left: 45%;
+    color: white;
+    background-color: rgb(31, 31, 31);
+}
+
+
+hr{
+    border-top: 3px;
+    color: rgb(224, 224, 224);
+    
+}
+
+.video-player{
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+    font-family: var(--primaryfont);
+    margin: 0;
+}
+
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+   
+   
+}
+
+.social-media{
+   margin-top: 50px;
+
+}
+
+.social-media a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-facebook{
+   font-size: 30px;
+}
+
+.fa-instagram{
+    font-size: 30px;
+}
+
+.fa-youtube{
+    font-size: 30px;
+}
+
+.payments{
+ 
+    width: 100%;
+}
+
+.quick-links { 
+    margin-top: 40px;
+}
+
+.quick-links ul li{
+   color: white;
+   list-style-type: none;
+   text-decoration: none; 
+}
+
+.quick-links ul li a{
+  text-decoration: none;
+}
+
+
+.gdrp ul li{
+  list-style-type: none;
+  color: white;
+  
+}
+
+.gdrp {
+   margin-top: 40px;
+}
+
+
+.more-info
+{
+    margin-top: 40px;
+}
+
+.more-info ul li{
+   list-style-type: none;
+   color: white;
+}
+
+
+.payments{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.payments{
+    margin-top: 70px;
+}
+
+
+.payments2 span {
+   display: block;
+   text-align: center;
+   color: white;
+   margin: 10;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .navbar-content{
+        display: none;
+    }
+
+    .jeremy{
+        display: block;
+        margin-left: 80px;
+        width: 70%;
+    }
+
+    .jeremy img{
+        width: 350px;
+        
+    }
+
+    .title,.frag{
+        display: block;
+        text-align: center;
+        width: 350px;
+        
+    }
+
+  
+
+    figure img{
+        margin-left:-30px;
+        width: 350px;
+    }
+
+    .alberto-morillas{
+        display:inline-block;
+        margin-left: 0%;
+
+    }
+
+    .alberto-morillas img{
+        width: 360px;
+        height: 200;
+        margin-left: 10px;
+    }
+
+    .master-perfumer{
+        width: 80%;
+        display: block;
+        margin-left: 50px;
+    }
+
+    .but{
+        margin-left: 50px;
+    }
+
+    .decription span{
+        font-size: 10px;
+        margin: 20px;
+        margin-left: -180px;
+    }
+
+  
+    .perfumes{
+       display: block;
+       
+    }
+
+
+    .perfumes2{
+       display: block;
+       margin-left: -5px;
+       
+    }
+
+    .perfumes2 img{
+        display: block;
+        margin-left: -70px;
+    }
+
+
+    .footer{
+       display: block;
+    }
+
+    .footer2{
+      display: block;
+      text-align: center;
+      margin-left: -40px;
+    }
+
+    .social-media{
+        margin-left: 40px;
+    }
+
+
+    .payments{
+       display: block;
+    }
+
+
+    .payments2{
+        display: block;
+        width: 70%;
+        margin-left: 15px;
+    }
+
+    .payments2 span{
+        margin-right: 40px;
+    }
+
+   
+
+    .butoni2{
+        margin-left: -200px;
+    }
+} 
+
+
+@media screen and (max-width: 810px){
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    .navbar-content{
+        display: none;
+    }
+
+    .nav-icons{
+        margin-right: -10px;
+    }
+
+
+    .jeremy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bootles-fragrances img{
+       
+    }
+
+    .alberto-morillas img{
+        height: 800px;
+    }
+
+
+    .perfumes{
+       display:grid ;
+    }
+
+
+    .perfumes2{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .perfumes2 img{
+        margin-left: -20px;
+    }
+
+    .butoni{
+        margin-left: 380px;
+    }
+
+    .footer2{
+        width: 80%;
+    }
+
+    .payments2{
+        margin-right: 140px;
+    }
+}
